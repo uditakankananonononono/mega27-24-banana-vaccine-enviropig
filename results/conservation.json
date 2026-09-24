@@ -1,0 +1,170 @@
+{
+ "reference": "YP_009724390.1",
+ "epitopes": [
+  {
+   "start": 1146,
+   "end": 1161,
+   "seq": "SFKEELDKYFKNHTS",
+   "score": 1.9839285714285713,
+   "variants": {
+    "alpha": {
+     "seq": "SFKEELDKYFKNHTS",
+     "identity": 1.0,
+     "rescore": 2.001
+    },
+    "delta": {
+     "seq": "SFKEELDKYFKNHTS",
+     "identity": 1.0,
+     "rescore": 2.001
+    },
+    "omicron_BA1": {
+     "seq": "SFKEELDKYFKNHTS",
+     "identity": 1.0,
+     "rescore": 2.001
+    },
+    "omicron_BA2": {
+     "seq": "SFKEELDKYFKNHTS",
+     "identity": 1.0,
+     "rescore": 2.001
+    },
+    "omicron_BA5": {
+     "seq": "SFKEELDKYFKNHTS",
+     "identity": 1.0,
+     "rescore": 2.001
+    }
+   }
+  },
+  {
+   "start": 144,
+   "end": 159,
+   "seq": "YHKNNKSWMESEFRV",
+   "score": 1.858571428571429,
+   "variants": {
+    "alpha": {
+     "seq": "YHKNNKSWMESEFRV",
+     "identity": 1.0,
+     "rescore": 1.972
+    },
+    "delta": {
+     "seq": "YHKNNKSWMESEXXV",
+     "identity": 0.867,
+     "rescore": null
+    },
+    "omicron_BA1": {
+     "seq": null,
+     "identity": 0.0,
+     "rescore": null
+    },
+    "omicron_BA2": {
+     "seq": "YHENNKXXXXXXXXX",
+     "identity": 0.333,
+     "rescore": null
+    },
+    "omicron_BA5": {
+     "seq": "YHKNNKSWMESEFRV",
+     "identity": 1.0,
+     "rescore": 1.972
+    }
+   }
+  },
+  {
+   "start": 673,
+   "end": 688,
+   "seq": "YQTQTNSPRRARSVA",
+   "score": 1.8580952380952382,
+   "variants": {
+    "alpha": {
+     "seq": "YQTQTNSHRRARSVA",
+     "identity": 0.933,
+     "rescore": 1.924
+    },
+    "delta": {
+     "seq": "YQTQTNSRRRARSVA",
+     "identity": 0.933,
+     "rescore": 2.001
+    },
+    "omicron_BA1": {
+     "seq": "YQTQTKSHRRARSVA",
+     "identity": 0.867,
+     "rescore": 1.961
+    },
+    "omicron_BA2": {
+     "seq": "YQTQTKSHRRARSVA",
+     "identity": 0.867,
+     "rescore": 1.961
+    },
+    "omicron_BA5": {
+     "seq": "YQTQTKSHRRARSVA",
+     "identity": 0.867,
+     "rescore": 1.961
+    }
+   }
+  },
+  {
+   "start": 454,
+   "end": 469,
+   "seq": "LFRKSNLKPFERDIS",
+   "score": 1.729666666666667,
+   "variants": {
+    "alpha": {
+     "seq": "LFRKSNLKPFERDIS",
+     "identity": 1.0,
+     "rescore": 1.699
+    },
+    "delta": {
+     "seq": "LFRKSNLKPFERDIS",
+     "identity": 1.0,
+     "rescore": 1.699
+    },
+    "omicron_BA1": {
+     "seq": "LFRKSNLKPFERDIS",
+     "identity": 1.0,
+     "rescore": 1.699
+    },
+    "omicron_BA2": {
+     "seq": "LFRKXXXXXXXXXXX",
+     "identity": 0.267,
+     "rescore": null
+    },
+    "omicron_BA5": {
+     "seq": "LFRKSNLKPFERDIS",
+     "identity": 1.0,
+     "rescore": 1.699
+    }
+   }
+  },
+  {
+   "start": 803,
+   "end": 818,
+   "seq": "QILPDPSKPSKRSFI",
+   "score": 1.6735714285714285,
+   "variants": {
+    "alpha": {
+     "seq": "QILPDPSKPSKRSFI",
+     "identity": 1.0,
+     "rescore": 1.576
+    },
+    "delta": {
+     "seq": "QILPDPSKPSKRSFI",
+     "identity": 1.0,
+     "rescore": 1.576
+    },
+    "omicron_BA1": {
+     "seq": "QILPDPSKPSKRSFI",
+     "identity": 1.0,
+     "rescore": 1.576
+    },
+    "omicron_BA2": {
+     "seq": "QILPDPSKPSKRSFI",
+     "identity": 1.0,
+     "rescore": 1.576
+    },
+    "omicron_BA5": {
+     "seq": "QILPDPSKPSKRSFI",
+     "identity": 1.0,
+     "rescore": 1.576
+    }
+   }
+  }
+ ]
+}
