@@ -16,7 +16,7 @@ red = (e0 - e1) / e0
 
 build_paper(
     os.path.join(os.path.dirname(__file__), "..", "paper",
-                 "MEGA27-24-banana-vaccine-enviropig.docx"),
+                 "MEGA27-24-banana-vaccine-enviropig-v2.docx"),
     "Computational design of a banana-expressed edible vaccine and an "
     "Enviropig-style phytase phosphorus budget",
     "Udita Phookan - MEGA-PROGRAM-27, item 24 (two computational studies)",
@@ -70,6 +70,13 @@ build_paper(
             f"{a1:.2f} g, excreted {e1:.2f} g - a {red*100:.0f}% reduction "
             "in excreted phosphorus, inside the published 20-60% band. "
             "Enzyme dose-response is monotone (unit-tested).",
+        ]),
+        ("Reproducibility", [
+            "pip install -e . && pytest - 10 tests pin epitope "
+            "non-overlap, surface>hydrophobic ordering, CAI=1 optimality, "
+            "twin-peak pH profile shape, hydrolysis bounds, exact mass "
+            "conservation, and the published-band reduction. Both "
+            "studies recompute every number in this paper from source.",
         ]),
         ("Limitations", [
             "Both studies are computational. Epitope scores are "
