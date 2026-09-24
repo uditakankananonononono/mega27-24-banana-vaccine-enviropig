@@ -78,6 +78,27 @@ build_paper(
             "conservation, and the published-band reduction. Both "
             "studies recompute every number in this paper from source.",
         ]),
+        ("Related work", [
+            "Edible vaccines reached the clinic-adjacent stage with "
+            "potato (LT-B) and were demonstrated in banana for HBsAg "
+            "(Kumar 2005); expression level and oral immunogenicity, not "
+            "antigen choice, were the bottlenecks - which is exactly "
+            "where codon optimization and epitope pre-selection "
+            "compute. For phytase, the Enviropig line established "
+            "salivary AppA efficacy; later work modeled phytate "
+            "hydrolysis in mono- and multi-compartment guts. Our "
+            "contribution is a transparent, unit-verified version of "
+            "both computational gates in one reproducible package.",
+        ]),
+        ("Appendix - construct design checklist", [
+            "For each candidate construct the pipeline reports: peptide "
+            "sequence and source coordinates; composite score; "
+            "optimized CDS; CAI against the host table; GC fraction; "
+            "max homopolymer (screened at synthesis); and for enzymes "
+            "the compartment-wise hydrolysis schedule. All values in "
+            "this paper were produced by the same functions the tests "
+            "verify - no number is hand-entered.",
+        ]),
         ("Limitations", [
             "Both studies are computational. Epitope scores are "
             "propensity composites, not BepiPred-2/3 neural predictors; "
