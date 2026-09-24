@@ -1,0 +1,202 @@
+[
+ {
+  "start": 1,
+  "alpha": 1.0,
+  "delta": 0.98,
+  "omicron_BA1": 1.0,
+  "omicron_BA2": 0.9,
+  "omicron_BA5": 0.9
+ },
+ {
+  "start": 51,
+  "alpha": 0.94,
+  "delta": 0.98,
+  "omicron_BA1": 0.92,
+  "omicron_BA2": 1.0,
+  "omicron_BA5": 1.0
+ },
+ {
+  "start": 101,
+  "alpha": 0.98,
+  "delta": 1.0,
+  "omicron_BA1": 0.92,
+  "omicron_BA2": 0.96,
+  "omicron_BA5": 0.98
+ },
+ {
+  "start": 151,
+  "alpha": 1.0,
+  "delta": 0.96,
+  "omicron_BA1": 1.0,
+  "omicron_BA2": 0.8,
+  "omicron_BA5": 1.0
+ },
+ {
+  "start": 201,
+  "alpha": 1.0,
+  "delta": 1.0,
+  "omicron_BA1": 0.96,
+  "omicron_BA2": 0.74,
+  "omicron_BA5": 0.98
+ },
+ {
+  "start": 251,
+  "alpha": 1.0,
+  "delta": 1.0,
+  "omicron_BA1": 1.0,
+  "omicron_BA2": 0.98,
+  "omicron_BA5": 1.0
+ },
+ {
+  "start": 301,
+  "alpha": 1.0,
+  "delta": 1.0,
+  "omicron_BA1": 0.98,
+  "omicron_BA2": 0.98,
+  "omicron_BA5": 0.98
+ },
+ {
+  "start": 351,
+  "alpha": 1.0,
+  "delta": 1.0,
+  "omicron_BA1": 0.94,
+  "omicron_BA2": 0.92,
+  "omicron_BA5": 0.92
+ },
+ {
+  "start": 401,
+  "alpha": 1.0,
+  "delta": 1.0,
+  "omicron_BA1": 0.94,
+  "omicron_BA2": 0.74,
+  "omicron_BA5": 0.94
+ },
+ {
+  "start": 451,
+  "alpha": 1.0,
+  "delta": 0.96,
+  "omicron_BA1": 0.88,
+  "omicron_BA2": 0.4,
+  "omicron_BA5": 0.9
+ },
+ {
+  "start": 501,
+  "alpha": 0.98,
+  "delta": 1.0,
+  "omicron_BA1": 0.94,
+  "omicron_BA2": 0.8,
+  "omicron_BA5": 0.96
+ },
+ {
+  "start": 551,
+  "alpha": 0.98,
+  "delta": 1.0,
+  "omicron_BA1": 1.0,
+  "omicron_BA2": 1.0,
+  "omicron_BA5": 1.0
+ },
+ {
+  "start": 601,
+  "alpha": 0.98,
+  "delta": 0.98,
+  "omicron_BA1": 0.98,
+  "omicron_BA2": 0.98,
+  "omicron_BA5": 0.98
+ },
+ {
+  "start": 651,
+  "alpha": 0.98,
+  "delta": 0.98,
+  "omicron_BA1": 0.94,
+  "omicron_BA2": 0.94,
+  "omicron_BA5": 0.94
+ },
+ {
+  "start": 701,
+  "alpha": 0.98,
+  "delta": 1.0,
+  "omicron_BA1": 1.0,
+  "omicron_BA2": 1.0,
+  "omicron_BA5": 1.0
+ },
+ {
+  "start": 751,
+  "alpha": 1.0,
+  "delta": 1.0,
+  "omicron_BA1": 0.96,
+  "omicron_BA2": 0.96,
+  "omicron_BA5": 0.96
+ },
+ {
+  "start": 801,
+  "alpha": 1.0,
+  "delta": 1.0,
+  "omicron_BA1": 1.0,
+  "omicron_BA2": 1.0,
+  "omicron_BA5": 1.0
+ },
+ {
+  "start": 851,
+  "alpha": 1.0,
+  "delta": 1.0,
+  "omicron_BA1": 0.98,
+  "omicron_BA2": 1.0,
+  "omicron_BA5": 1.0
+ },
+ {
+  "start": 901,
+  "alpha": 0.98,
+  "delta": 0.98,
+  "omicron_BA1": 1.0,
+  "omicron_BA2": 1.0,
+  "omicron_BA5": 1.0
+ },
+ {
+  "start": 951,
+  "alpha": 0.98,
+  "delta": 1.0,
+  "omicron_BA1": 0.94,
+  "omicron_BA2": 0.96,
+  "omicron_BA5": 0.96
+ },
+ {
+  "start": 1001,
+  "alpha": 1.0,
+  "delta": 1.0,
+  "omicron_BA1": 1.0,
+  "omicron_BA2": 1.0,
+  "omicron_BA5": 1.0
+ },
+ {
+  "start": 1051,
+  "alpha": 1.0,
+  "delta": 1.0,
+  "omicron_BA1": 1.0,
+  "omicron_BA2": 1.0,
+  "omicron_BA5": 1.0
+ },
+ {
+  "start": 1101,
+  "alpha": 0.98,
+  "delta": 1.0,
+  "omicron_BA1": 1.0,
+  "omicron_BA2": 1.0,
+  "omicron_BA5": 1.0
+ },
+ {
+  "start": 1151,
+  "alpha": 1.0,
+  "delta": 1.0,
+  "omicron_BA1": 1.0,
+  "omicron_BA2": 1.0,
+  "omicron_BA5": 1.0
+ },
+ {
+  "start": 1201,
+  "alpha": 1.0,
+  "delta": 1.0,
+  "omicron_BA1": 1.0,
+  "omicron_BA2": 1.0,
+  "omicron_BA5": 1.0
+ }
+]
