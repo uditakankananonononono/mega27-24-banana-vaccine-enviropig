@@ -188,6 +188,31 @@ P.para(doc,
  "hindgut and calcium-phytate interactions; its value is the honest "
  "placement inside the published band and the dose-plateau analysis.")
 
+
+P.h1(doc, "8. Formal derivations")
+P.h2(doc, "8.1 Conservation metrics")
+P.para(doc, "Per-residue conservation across the V = 5 variant spikes is the identity frequency at each aligned column:")
+P.eq(doc, "5", "c_i = (1/V) sum_{v=1}^{V} 1[ a_i^{(v)} = a_i^{(ref)} ]")
+P.para(doc, "Epitope-level conservation is the mean over the epitope's residue window, and a candidate is 'fully conserved' iff min c_i = 1 over the window. The windowed drift map smooths c_i with a running mean:")
+P.eq(doc, "6", "C_w(i) = (1/(2r+1)) sum_{j=i-r}^{i+r} c_j,   r = 25")
+P.para(doc, "which is what localizes the BA.2 RBD trough (aa 451-500) at C_w = 0.40 against the S2 plateau at 1.00.")
+P.h2(doc, "8.2 Hydrophobicity scoring derivation")
+P.para(doc, "Equation (1) is a causal 7-residue Kyte-Doolittle smoother; its choice of w = 7 follows the standard antigenicity-window argument: windows shorter than a beta-turn (4 residues) alias side-chain noise, windows longer than an epitope footprint (~9-15 residues) dilute the peak. The score is unitless KD per residue, negated so peaks mark surface-exposed hydrophilic stretches.")
+P.h2(doc, "8.3 CAI properties")
+P.para(doc, "Equation (2) is the geometric mean of relative adaptiveness w_k = f(c_k)/f_max(aa_k); it equals 1 iff every codon is the host's most-used synonymous codon, and it is length-invariant because the log-average normalizes by L. Our optimizer achieves CAI = 1.000 exactly by argmax selection per amino acid, subject to the reported GC-window constraint:")
+P.eq(doc, "7", "GC_w(i) = (1/w) sum_{j=i}^{i+w-1} 1[ b_j in {G,C} ],   0.35 <= GC_w <= 0.65")
+P.h2(doc, "8.4 Enviropig mass-balance derivation")
+P.para(doc, "Total tract hydrolysis integrates Michaelis-Menten release over sequential compartments with transit times t_c:")
+P.eq(doc, "8", "P_hyd = sum_c integral_0^{t_c} r_c(t) dt,   r_c = U a(pH_c) S_c / (K_m + S_c)")
+P.para(doc, "with substrate depletion S_c(t) following dS/dt = -r_c. The manure-phosphorus reduction is then:")
+P.eq(doc, "9", "R_P = 1 - P_out / P_in = 1 - (P_in - P_hyd - P_body) / P_in")
+P.para(doc, "Evaluated at the reference diet this gives R_P = 0.541, inside the published 20-60% band; the dose-response plateau follows because r saturates at U a(pH) as S >> K_m:")
+P.eq(doc, "10", "lim_{S -> infinity} r = U a(pH)   =>   R_P plateaus when phytate excess saturates AppA")
+P.h2(doc, "8.5 Statistical power of the conservation claim")
+P.para(doc, "Under a null of independent neutral drift at per-site identity p0, the probability of observing n consecutive fully-conserved residues is:")
+P.eq(doc, "11", "P_null = p0^n;   p0 = 0.90, n = 20  =>  P_null = 0.12;   n = 50  =>  P_null = 5.2 x 10^-3")
+P.para(doc, "so long S2 windows of perfect conservation across five variants are not expected under drift, which is the formal version of the discovery claim - stated with the caveat that variant sampling is phylogenetically correlated, so p0 is approximate.")
+
 P.h1(doc, "References")
 for i, r in enumerate([
  "Kyte, J., Doolittle, R.F. (1982). A simple method for displaying the hydropathic character of a protein. J. Mol. Biol. 157:105-132.",
