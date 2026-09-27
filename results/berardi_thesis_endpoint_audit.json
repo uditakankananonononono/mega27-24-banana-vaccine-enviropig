@@ -1,0 +1,54 @@
+{
+  "classification": {
+    "banana_fruit": false,
+    "direct_post_digestion_intact_fraction_with_matched_denominator": false,
+    "eligible_for_locked_held_out_primary_endpoint": false,
+    "numeric_replicate_level_intact_fraction": false,
+    "published_numeric_gi_assay": true,
+    "vaccine_antigen": true
+  },
+  "gate_credit": {
+    "audited_derivations": 0,
+    "external_services": 0,
+    "fetched_and_used_accession_datasets": 0,
+    "paper_pages": 0
+  },
+  "limits": [
+    "The PDF is a thesis from the same researcher as the screened 2017 manuscript; do not count it as independent of that work without comparing underlying experiments.",
+    "Reported figures are formulation-specific summary endpoints; no new construct or formulation recommendation follows, and cross-formulation ranking is not a fair model benchmark.",
+    "No biological fruit-to-fruit replicates, per-replicate intact fraction, comparable held-out publication or validation test is established."
+  ],
+  "pages": 299,
+  "reported_numeric_observations": {
+    "coated_tablet_after_gastric_then_intestinal_native_vlp_release_pct_mean": 87.1,
+    "coated_tablet_direct_ELISA_release_pct_mean": 91.4,
+    "coated_tablet_native_vlp_release_sd_percentage_points": 9.6,
+    "microparticle_post_gastric_release_pct_means": [
+      6.0,
+      11.3,
+      2.7,
+      4.1
+    ],
+    "microparticle_post_gastric_release_sd_points": [
+      1.2,
+      0.9,
+      0.7,
+      0.5
+    ],
+    "microparticle_replicates_per_condition": 3
+  },
+  "scope": "The tablet endpoint is native VLP released into simulated intestinal fluid after 2h gastric exposure, normalized to tablets kept in intestinal fluid without prior gastric exposure. Microparticle endpoint is native VLP released after a gastric step versus unstressed controls. Neither is a direct whole-sample fraction of intact antigen at the exit of digestion in banana fruit, and neither provides raw replicate values.",
+  "sha256": "6eefd8f0ef950c529691a6a20e62b5036a4901bda3d06af3e8cf788bc4157456",
+  "source": "https://ueaeprints.uea.ac.uk/id/eprint/47928/1/2013BerardiAPhD.pdf",
+  "source_marker_checks": {
+    "gastric_sampling": "samples were not collected, because any",
+    "microparticle_11pct": "65.5 (\u00b1 6.9)                      11.3 (\u00b1 0.9)",
+    "microparticle_2pct": "72.9 (\u00b1 4.2)                      2.7 (\u00b1 0.7)",
+    "microparticle_4pct": "76.3 (\u00b1 2.4)                      4.1 (\u00b1 0.5)",
+    "microparticle_6pct": "81.1 (\u00b1 4.7)                      6.0 (\u00b1 1.2)",
+    "microparticle_table": "Table 5.6. Microparticles encapsulation efficiency and gastro-protection (%, mean \u00b1",
+    "tablet_control_denominator": "the total HBcAg released in the control vessels where",
+    "tablet_direct": "91.4% (\u00b1 4.3%) HBcAg release was",
+    "tablet_figure_4_11_sandwich": "87.1% (\u00b1 9.6%) HBcAg VLPs were released after 6 hours of total incubation"
+  }
+}
