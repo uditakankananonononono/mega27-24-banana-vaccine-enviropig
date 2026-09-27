@@ -9,3 +9,7 @@ The eligibility screen lists "Tacket et al., 2004" linked to [PMC549291](https:/
 **Cross-design scale context.** Next to the previously pinned [Pelosi 2012](https://pmc.ncbi.nlm.nih.gov/articles/PMC3527624/) record (300 ug/g dry weight, 5.7 mg available per 19 g dose), this record's printed per-gram content is 35.3x lower and its implied per-dose content (0.85 mg) is 6.7x lower. Species, tissue, dry-vs-fresh basis and decade all differ; this is a scale comparison of printed published numbers for the dose-variability evidence base, not a potency or outcome comparison.
 
 The script replays identity, ratios and scale arithmetic from the archived record and the pinned Pelosi JSON, covered by a hermetic test. No new eligibility, no comparator win, no discovery, no gate credit.
+
+## Citation-label correction
+
+The current source screen and two endpoint-boundary notes now name the linked PMC549291 record as Thanavala et al. (2005), rather than the prior erroneous Tacket (2004) label. The archived provenance audit keeps the prior label as a trace of the correction; screening flags and the 0/6 matched outcome are unchanged. This is record identity cleanup, not a new endpoint or result.
