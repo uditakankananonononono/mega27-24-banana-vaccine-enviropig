@@ -1,0 +1,7 @@
+# Scope-check of Gemini direction consultation
+
+The [verbatim direction consult](gemini-direction-consult-2026-09-27.txt) is supplementary untrusted advice, not owner permission, study data, or a counted weakness/improvement round. Its appended suggested follow-up and apparent “Yes” are UI/model content; no user answered it. Browser conversation: https://gemini.google.com/app/707917a11d86df06 .
+
+The highest-ranked suggestion, regulatory digestibility data for unrelated plant proteins, is outside the already approved study of **published oral-vaccine designs**. Do not let a better-populated unrelated task replace the owner's project. The yield suggestion is relevant only if restricted to measured yields of already-published oral-vaccine studies, with matched units, denominator and replicate context; no promoter, construct or sequence-design predictors. The food-matrix suggestion remains a lead only where the same published oral-vaccine antigen is measured both in a plant matrix and a comparable control, with original numerical assay data. Neither suggestion supplies evidence by itself or changes the locked primary endpoint after outcomes.
+
+Next source check: inspect primary plant-made oral-vaccine papers for numerical pre-ingestion yield/stability observations, and separately seek before/after digestion results. If only yield survives, present it as an explicitly secondary endpoint and compare against simple source-study/host baselines on grouped holdouts, never claim it predicts intestinal dose. No gate credit from this consult.

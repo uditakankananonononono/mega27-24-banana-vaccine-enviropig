@@ -1,0 +1,35 @@
+{
+  "claims": {
+    "assay_repeats_text": {
+      "phrase": "from three (lettuce leaves) or ten (lyophilized tissue and tablets) repeated assays",
+      "source_paragraph": "The quantitative enzyme-linked immunosorbent assay (ELISA) was performed according to typical guidelines with details specific for the S-HBsAg assay set as follows. A Microtiter MaxiSorp (Nunc) microplate was coated overnight at 4\u00b0C with 0.5\u00a0\u03bcg/ml mAb C86132 (Biodesign) in carbonate buffer pH 9.6 and then saturated for 2\u00a0h at 25\u00b0C with 5% w/v PBS-fat-free milk. Typically, extracts were added to PBS-filled wells and serially diluted 1:100\u20131:800 for leaf samples or 1:800\u20131:6,400 for lyophilized tissue or tablet samples. Afterwards, wells were incubated with 1:4,000 anti-SHBsAg polyclonal rabbit antibody (B65811R, Biodesign), then with 1:20,000 anti-rabbit IgG \u03b3-specific biotin-conjugated mAb (Sigma), followed by 1:4,000 AP-conjugated ExtrAvidin\u00ae (Sigma). The reaction with pNPP substrate (Sigma) was developed at 25\u00b0C for 1 h and absorbance was measured at 405\u00a0nm using a Bio-Rad Microplate Reader, Model 680. The S-HBsAg concentration (microgram per gram of fresh or dry weight, \u03bcg/g FW or \u03bcg/g DW, respectively) was calculated as the arithmetic mean with standard deviation (SD) from three (lettuce leaves) or ten (lyophilized tissue and tablets) repeated assays, using Microplate Manager 5.2.1 software (Bio-Rad), according to the standard curve for unadjuvanted S-HBsAg (University of Ulm, Germany) in the negative control extract."
+    },
+    "one_year_retention_text": {
+      "phrase": "stability (95\u201398%) of S-HBsAg content for at least one year of room temperature storage",
+      "source_paragraph": "The tablet form of a potential vaccine specimen seems to be feasible to produce, durable in storage even at room temperature, and easy to use, which is especially important in regions with an underdeveloped medical infrastructure. A compact tablet form made it possible to concentrate the dose of antigen assembled into immunogenic VLPs (2.3\u00a0\u03bcg/unit) in a relatively small weight and volume (see Results section), while the same antigen dose would have to be contained in a 4\u20135 times bigger capsule or other formula containing loose powder. Due to the powdery structure, high hygroscopicity, and low density of milled lyophilized tissue, the tablet filler, i.e., lactose, and the binding agent, i.e., polyvinylpyrrolidone, had to be established experimentally from among standard components to facilitate the compression of tablets of proper parameters (see Results section). Moreover, tablets, as well as lyophilized tissue, are characterized by the stability (95\u201398%) of S-HBsAg content for at least one\u00a0year of room temperature storage (Fig. 7 b). Tablets indicate a direction for the development of a compacted prototype oral vaccine, convenient for use and distribution, and may facilitate human immunization trials. It could be assumed that data acquired on immunization efficacy will contribute to further tablet optimization to enhance immune response, e.g., with the addition of adjuvants, immunomodulators, etc."
+    },
+    "processing_loss_text": {
+      "phrase": "at least 90% decrease of S-HBsAg VLPs content",
+      "source_paragraph": "Here, a novel prototype plant-based anti-HBV vaccine in tablet form prepared from freeze-dried lettuce highly (\u226510\u00a0\u03bcg/g FW) expressing VLP-assembled S-HBsAg is proposed (Fig. 7 a). The administration of durable powdered freeze-dried plant tissue made it possible to concentrate and standardize antigen content throughout vaccine doses and would facilitate delivery of the antigen in a size-reduced specimen under a controlled regime (Figs. 6 and 7 ). However, during lyophilization, an at least 90% decrease of S-HBsAg VLPs content was recorded when compared to fresh tissue (Fig. 3 ) and that observed in freeze-dried tissue (Fig. 7 b), considering that the dry weight is 5\u201310% FW. Advantageously, the low dose of VLPs applied in a \u2018single shot\u2019, avoiding extended exposure in sub-portions, appeared to be sufficient to induce local and systemic humoral response at an adequate protection level (Fig. 6 ). However, potential industrial production of the oral vaccine would require the optimization of freeze-drying parameters to effectively retain the VLPs."
+    },
+    "tablet_content_text": {
+      "phrase": "2.3 \u03bcg/unit of tablets",
+      "source_paragraph": "Lettuce leaves, harvested from T1 plants of S-HBsAg content \u226510\u00a0\u03bcg/g FW, were freeze-dried and ground into powder and stored at room temperature with a desiccating silica gel. This semi-product was mixed with different fillers and binding agents, e.g., mono- and oligosaccharides, starch, cellulose derivatives, gelatine, Arabic gum, inorganic compounds, etc. Finally, the 2:1:1 w/w/w mixture of the powdered plant tissue with lactose as the filler and a 10% w/v polyvinylpyrrolidone/methylene chloride as the binding agent met the required powder density and consistency suitable for the preparation of standard tablets, i.e., 10\u2009\u00d7\u20093-mm in size and 500\u00a0mg in weight, with appropriate durability, friability, dissolution time, and possibility of room temperature storage (Fig. 7a ). The level of total S-HBsAg in the lyophilized material reached 5\u00a0mg/g FW. However, the mean content of VLP-structuralized antigen was 11\u00a0\u03bcg/g of lyophilized tissue and 5\u00a0\u03bcg/g or 2.3\u00a0\u03bcg/unit of tablets, i.e., approximately half that of the original lyophilized material due to the added ingredients. The antigen level remained stable, i.e., without significant fluctuations, after one\u00a0year of storage in dry air at room temperature, both in lyophilized tissue and in tablets (Fig. 7b )."
+    }
+  },
+  "gate_credit": {
+    "audited_derivations": 0,
+    "external_services": 0,
+    "fetched_and_used_accession_datasets": 0,
+    "paper_pages": 0
+  },
+  "interpretation": "The same article reports substantial process-stage loss of assembled protein but high one-year retention of remaining protein in stored powder/tablet. These have different denominators and cannot be collapsed into one effective intestinal dose.",
+  "limits": [
+    "Author-reported ranges, not independently remeasured individual tablet/plant assay values",
+    "Repeated ELISA assays are not independent plant or digestion biological replicates",
+    "One paper and antigen system; no cross-study matched comparator or new oral-dose discovery",
+    "This analysis does not prescribe manufacturing steps or antigen design"
+  ],
+  "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3088802/",
+  "source_sha256": "0cc8340e74f4b069760da99a9639ab88d14d3c254024e465fd9ffa09f066f786"
+}
