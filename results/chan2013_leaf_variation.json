@@ -1,0 +1,77 @@
+{
+  "extract_sha256": "192b9b8b8039651007d6e6ab26107301163ba4384e340e047bd88a00f87428ff",
+  "finding": "Five published banana-leaf line means range from 154.2 to 257.6 ng/g fresh leaf (1.6706-fold). For the published 50 g oral leaf portion, simple mass multiplication yields 7.71 to 12.88 ug, matching the paper\u2019s rounded 7.7 to 12.9 ug. These are line-mean differences, not measured fruit-to-fruit or post-digestion variability.",
+  "gate_credit": {
+    "audited_derivations": 0,
+    "external_services": 0,
+    "fetched_and_used_accession_datasets": 0,
+    "paper_pages": 0
+  },
+  "implied_50g_mass_range_ug": [
+    7.71,
+    12.88
+  ],
+  "limits": [
+    "Published banana-leaf table, not banana fruit protein mass or digestion survival",
+    "Five distinct lines are not five biological replicates of one fruit cultivar/batch; the descriptive CV is not within-fruit or plant-to-plant variance",
+    "Printed plus-minus semantics and individual replicates were not recovered; no uncertainty interval or inference is attempted",
+    "No design, sequence, antigen or formulation recommendation; no comparison of immune efficacy or safety"
+  ],
+  "line_mean_cv_descriptive": 0.2375,
+  "line_mean_max_over_min": 1.6706,
+  "line_mean_range_ng_per_g_fresh_leaf": [
+    154.2,
+    257.6
+  ],
+  "paper_printed_50g_range_ug": [
+    7.7,
+    12.9
+  ],
+  "print_arithmetic_consistent": true,
+  "printed_plus_minus_semantics": "not assigned SD/SEM without a confirmed definition",
+  "rows": [
+    {
+      "fresh_leaf_ng_per_g_mean": 157.9,
+      "fresh_leaf_plus_minus_printed": 18.4,
+      "implied_50g_mass_ug": 7.895,
+      "percent_tsp_printed": 0.021,
+      "published_line": 1,
+      "tsp_percent_recomputed": 0.0208
+    },
+    {
+      "fresh_leaf_ng_per_g_mean": 179.9,
+      "fresh_leaf_plus_minus_printed": 9.4,
+      "implied_50g_mass_ug": 8.995,
+      "percent_tsp_printed": 0.026,
+      "published_line": 2,
+      "tsp_percent_recomputed": 0.0255
+    },
+    {
+      "fresh_leaf_ng_per_g_mean": 154.2,
+      "fresh_leaf_plus_minus_printed": 16.5,
+      "implied_50g_mass_ug": 7.71,
+      "percent_tsp_printed": 0.023,
+      "published_line": 3,
+      "tsp_percent_recomputed": 0.0234
+    },
+    {
+      "fresh_leaf_ng_per_g_mean": 257.6,
+      "fresh_leaf_plus_minus_printed": 6.3,
+      "implied_50g_mass_ug": 12.88,
+      "percent_tsp_printed": 0.037,
+      "published_line": 4,
+      "tsp_percent_recomputed": 0.0365
+    },
+    {
+      "fresh_leaf_ng_per_g_mean": 234.6,
+      "fresh_leaf_plus_minus_printed": 24.3,
+      "implied_50g_mass_ug": 11.73,
+      "percent_tsp_printed": 0.031,
+      "published_line": 5,
+      "tsp_percent_recomputed": 0.0313
+    }
+  ],
+  "source_section": "Table 1: published protein content in banana leaves; prose paragraph immediately following table: oral mass-dose range",
+  "source_url": "https://onlinelibrary.wiley.com/doi/10.1111/pbi.12015",
+  "tissue": "banana leaf, not banana fruit"
+}

@@ -1,0 +1,18 @@
+{
+  "source_url": "https://onlinelibrary.wiley.com/doi/10.1111/pbi.12015",
+  "title": "Oral immunogenicity of porcine reproductive and respiratory syndrome virus antigen expressed in transgenic banana",
+  "source_section": "Table 1: published protein content in banana leaves; prose paragraph immediately following table: oral mass-dose range",
+  "retrieved": "2026-09-28",
+  "table_columns": ["line", "ng_per_mg_tsp_mean", "ng_per_mg_tsp_pm", "ng_per_g_fresh_leaf_mean", "ng_per_g_fresh_leaf_pm", "percent_tsp_printed"],
+  "rows": [
+    [1, 208.2, 24.3, 157.9, 18.4, 0.021],
+    [2, 255.2, 13.3, 179.9, 9.4, 0.026],
+    [3, 234.3, 25.1, 154.2, 16.5, 0.023],
+    [4, 365.1, 8.9, 257.6, 6.3, 0.037],
+    [5, 312.8, 32.4, 234.6, 24.3, 0.031]
+  ],
+  "printed_oral_mass_g_fresh_leaf": 50,
+  "printed_dose_range_ug": [7.7, 12.9],
+  "tissue": "banana leaf, not banana fruit",
+  "endpoint": "published plant-line protein content, not measured post-digestion intact antigen fraction"
+}
