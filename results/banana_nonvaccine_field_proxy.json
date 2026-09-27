@@ -1,0 +1,42 @@
+{
+  "field_design": {
+    "first_trial_plants_per_line": 1,
+    "first_trial_transgenic_lines": 244,
+    "later_trial_replication": "ten field-derived sucker plants per line in randomized plots; 3 successive generations assessed",
+    "second_trial_transgenic_lines": 27,
+    "second_trial_wildtype_lines": 5
+  },
+  "finding": "These published banana fruit studies show a measurable fruit trait and field/season differences, but their trait is pro-vitamin A carotenoids, not orally delivered vaccine antigen. A variability predictor cannot use those fruit values as antigen or digestion outcomes.",
+  "gate_credit": {
+    "audited_derivations": 0,
+    "external_services": 0,
+    "fetched_and_used_accession_datasets": 0,
+    "paper_pages": 0
+  },
+  "limits": [
+    "The 1.0 and 8.1 values are wild-type fruit means from different trials/months; their ratio is descriptive across contexts, not an individual fruit coefficient of variation.",
+    "Do not substitute carotenoid HPLC for antigen ELISA, post-digestion antigen fraction or immune response.",
+    "The later trial revisits selected lines and is not an independent validation set for a vaccine-antigen prediction.",
+    "No construct/sequence/delivery-system recommendation, antigen comparator, accession payload or project gate credit."
+  ],
+  "published_wildtype_control_extremes": {
+    "max_microgram_per_g_dry_weight_beta_carotene_equivalents": 8.1,
+    "min_microgram_per_g_dry_weight_beta_carotene_equivalents": 1.0,
+    "ratio_of_extremes": 8.1,
+    "scope": "wild-type fruit across two field trials and different harvest months, not paired plants or vaccine dose"
+  },
+  "sources": [
+    {
+      "europe_pmc_xml_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5362681/fullTextXML",
+      "sha256": "d3c5b5d15ebfad89a926d7e81a7254c0088ccf6a78459c21199b899b313b0a36",
+      "title": "Golden bananas in the field: elevated fruit pro\u2010vitamin A from the expression of a single banana transgene",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5362681/"
+    },
+    {
+      "europe_pmc_xml_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13110172/fullTextXML",
+      "sha256": "8c920a4f1859513fe52fef3eb8b3b354bfe020ab2583d2e82b50398ab9f11c12",
+      "title": "Pro\u2010Vitamin A Biofortified Cavendish Banana: Trait Stability in the Field",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13110172/"
+    }
+  ]
+}
