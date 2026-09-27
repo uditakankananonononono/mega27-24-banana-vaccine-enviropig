@@ -1,0 +1,73 @@
+{
+  "checks": {
+    "arithmetic": {
+      "both_arm_percentages_round_correctly": true,
+      "implied_content_per_dose_basis": "approximate: printed content carries a \u2248 marker in the abstract",
+      "implied_content_per_dose_ug": 850.0,
+      "treated_volunteers_in_printed_arms": 33
+    },
+    "cross_design_scale": {
+      "content_ratio_pelosi_over_this": 35.29,
+      "note": "Different species, tissues, dry-vs-fresh bases and decades; a scale comparison of printed published numbers only, not a potency or outcome comparison",
+      "pelosi2012_available_mg_per_dose": 5.7,
+      "pelosi2012_content_ug_per_g_dwt": 300,
+      "this_record_content_ug_per_g_fresh_tuber": 8.5,
+      "this_record_implied_mg_per_dose": 0.85
+    },
+    "endpoint_classification": {
+      "banana_fruit_data": false,
+      "eligible_for_locked_primary_endpoint": false,
+      "fruit_to_fruit_replicates": false,
+      "measured_post_digestion_intact_antigen_fraction": false,
+      "outcome_type": "human serum antibody titre responders (aggregate counts)"
+    },
+    "identity": {
+      "doi": "10.1073/pnas.0409899102",
+      "first_author": "Thanavala",
+      "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+      "label_matches_live_record": false,
+      "note": "NCBI esummary/efetch resolve PMC549291 to Thanavala et al., PNAS 2005 (PMID 15728371); the eligibility screen's 'Tacket et al., 2004' citation label does not match the linked record. The screen's endpoint classification is unaffected: the record is human immune-outcome data, not banana fruit and not a measured post-digestion intact fraction, under either authorship.",
+      "screen_doc_label": "Tacket et al., 2004",
+      "title": "Immunogenicity in humans of an edible vaccine for hepatitis B",
+      "year": "2005"
+    },
+    "printed_records": {
+      "arms": {
+        "three_doses": {
+          "computed_pct": 62.5,
+          "n": 16,
+          "printed_pct": 62.5,
+          "responders": 10,
+          "rounds_to_printed": true
+        },
+        "two_doses": {
+          "computed_pct": 52.94,
+          "n": 17,
+          "printed_pct": 52.9,
+          "responders": 9,
+          "rounds_to_printed": true
+        }
+      },
+      "content_marked_approximate": true,
+      "content_ug_per_g_tuber": 8.5,
+      "controls_responders": "none (count not printed in abstract)",
+      "dose_tuber_g": 100
+    }
+  },
+  "efetch": "NCBI eutils efetch db=pmc id=549291 rettype=abstract (publisher bars full-text XML; abstract record archived)",
+  "gate_credit": {
+    "audited_derivations": 0,
+    "external_services": 0,
+    "fetched_and_used_accession_datasets": 0,
+    "paper_pages": 0
+  },
+  "limits": [
+    "Abstract-level record: the publisher does not permit full-text XML download, so methods-level detail (exact control-arm size, per-lot content spread) is not in this archive",
+    "Printed content is approximate (\u2248 marker); implied per-dose content inherits that approximation",
+    "Responder counts are aggregate printed values; no per-subject data audited",
+    "Printed-number audit only; no dose, formulation or protocol recommendation"
+  ],
+  "sha256": "87be3b04a0fc7676ba0c8c9a6a76276fae02448e941351129081e1b0a3fbb96c",
+  "source_file": "pmc549291_abstract.xml",
+  "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC549291/"
+}
