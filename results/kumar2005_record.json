@@ -1,0 +1,48 @@
+{
+  "checks": {
+    "cross_design_scale": {
+      "content_ratio_thanavala_over_kumar_invitro_max": 223.7,
+      "note": "Different species, tissues, constructs and bases; a scale comparison of printed published numbers only, not a potency or outcome comparison",
+      "thanavala2005_content_ng_per_g_fresh_tuber": 8500.0
+    },
+    "endpoint_classification": {
+      "banana_fruit_data": true,
+      "eligible_for_locked_primary_endpoint": false,
+      "fruit_content_quantified": false,
+      "measured_post_digestion_intact_fraction": false
+    },
+    "identity": {
+      "doi": "10.1007/s00425-005-1556-y",
+      "journal": "Planta",
+      "pmid": "15918027",
+      "screen_url_doi_match": true,
+      "title": "Expression of hepatitis B surface antigen in transgenic banana plants.",
+      "year": "2005"
+    },
+    "printed_records": {
+      "buoyant_density_g_per_ml": 1.146,
+      "constructs_compared": 4,
+      "fruit_measurement": "RT-PCR detection only; no fruit content value printed",
+      "leaf_content_max_ng_per_g_fw_greenhouse": 19.92,
+      "leaf_content_max_ng_per_g_fw_in_vitro": 38.0,
+      "monoclonal_binding_pct_with_er_signal": 67.87
+    },
+    "screen_basis_consistent": true
+  },
+  "efetch": "NCBI eutils esearch+efetch db=pubmed id=15918027 rettype=abstract (abstract record archived 2026-09-28)",
+  "finding": "The screen's Kumar 2005 entry resolves live to the Planta 2005 record (PMID 15918027) and the archived abstract confirms the screen's stated basis: leaf content maxima printed for two growth settings, fruit confirmed by RT-PCR only with no printed fruit content value. Printed leaf maxima are 38 ng/g F.W. (in vitro) and 19.92 ng/g F.W. (greenhouse); the pinned Thanavala record's printed tuber content is ~224x the in-vitro leaf maximum on a fresh-weight ng/g scale (descriptive cross-design context only). Eligibility screen unchanged at 0/6.",
+  "gate_credit": {
+    "audited_derivations": 0,
+    "external_services": 0,
+    "fetched_and_used_accession_datasets": 0,
+    "paper_pages": 0
+  },
+  "limits": [
+    "Abstract-level record; construct-level spread and replicate values are not printed here",
+    "Screen basis check upgrades the entry evidence from publisher page to pinned abstract; no new study added",
+    "Printed-number audit only; no design, formulation or protocol recommendation"
+  ],
+  "sha256": "ff4298454c0f871a9f175146986129d4bf0e45a3aa9fc836ea229f3bd1b22724",
+  "source_file": "kumar2005_pubmed_abstract.xml",
+  "source_url": "https://link.springer.com/article/10.1007/s00425-005-1556-y"
+}
