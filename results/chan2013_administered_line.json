@@ -1,0 +1,27 @@
+{
+  "administered_line": 4,
+  "administered_line_fresh_leaf_ng_per_g_mean": 257.6,
+  "article_administered_line_stated_content_ug": 12.9,
+  "article_all_five_line_context_range_ug": [
+    7.7,
+    12.9
+  ],
+  "author_reported_administered_mass_g": 50,
+  "calculated_administered_line_content_ug": 12.88,
+  "extract_sha256": "192b9b8b8039651007d6e6ab26107301163ba4384e340e047bd88a00f87428ff",
+  "finding": "The published source\u2019s 7.7\u201312.9 ug figure is a five-line expression-derived range; the animal experiment used one selected banana leaf line (no. 4) with 50 g and an author-stated 12.9 ug per administration. Five line means must not be passed off as five tested oral doses or digestion replicates.",
+  "gate_credit": {
+    "audited_derivations": 0,
+    "external_services": 0,
+    "fetched_and_used_accession_datasets": 0,
+    "paper_pages": 0
+  },
+  "limits": [
+    "Not an independently measured per-animal antigen consumption distribution",
+    "The Table 1 five-line range was not randomized among the animal groups",
+    "No banana fruit mass, post-digestion intact fraction, vaccine efficacy comparison, sequence or construct advice"
+  ],
+  "published_line_count": 5,
+  "scope_note": "The source\u2019s article text was read on 2026-09-28. Its experimental-procedures paragraph explicitly identifies line no. 4; this script replays the numeric consistency from archived Table 1 only, since the original article HTML prose is not stored byte-for-byte in the repository.",
+  "source_url": "https://onlinelibrary.wiley.com/doi/10.1111/pbi.12015"
+}
