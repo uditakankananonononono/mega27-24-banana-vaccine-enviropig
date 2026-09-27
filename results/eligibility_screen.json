@@ -1,0 +1,56 @@
+{
+  "gate_credit": {
+    "audited_derivations": 0,
+    "external_services": 0,
+    "fetched_and_used_accession_datasets": 0,
+    "paper_pages": 0
+  },
+  "limits": [
+    "A paper outside this four-study screen may contain eligible data",
+    "Binary fields describe evidence recovered, not universal absence from full paywalled articles or supplemental data",
+    "Do not pool human immune readouts, sheep response, purified-particle gel readouts and banana fruit transcript signal as one dose endpoint"
+  ],
+  "matched_banana_fruit_joint_studies": 0,
+  "matched_primary_endpoint_studies": 0,
+  "screened_studies": [
+    {
+      "basis": "Publisher abstract: leaf antigen maxima in two growth settings; fruit RT-PCR only in accessible text",
+      "fruit_protein_quantified": false,
+      "numeric_post_digestion_intact_fraction": false,
+      "study": "Kumar 2005 banana expression",
+      "tissue": "banana leaf and fruit",
+      "url": "https://link.springer.com/article/10.1007/s00425-005-1556-y",
+      "within_fruit_batch_replicates": false
+    },
+    {
+      "basis": "Oral dose/immunogenicity, not matched banana fruit and digestion survival",
+      "fruit_protein_quantified": false,
+      "numeric_post_digestion_intact_fraction": false,
+      "study": "Tacket 2004 human potato trial",
+      "tissue": "potato",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC549291/",
+      "within_fruit_batch_replicates": false
+    },
+    {
+      "basis": "Published immune response across tissues/formulations, not measured intact post-digestion fraction",
+      "fruit_protein_quantified": false,
+      "numeric_post_digestion_intact_fraction": false,
+      "study": "Pelosi 2012 sheep plant tissue comparison",
+      "tissue": "root and leaf",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0052907",
+      "within_fruit_batch_replicates": false
+    },
+    {
+      "basis": "Accepted manuscript describes gel, blot and imaging outcomes in simulated/pig fluids; no numeric replicate-level intact-fraction table recovered for preregistered endpoint",
+      "fruit_protein_quantified": false,
+      "numeric_post_digestion_intact_fraction": false,
+      "study": "Berardi 2017 purified plant antigen GI stability",
+      "tissue": "purified from tobacco plant",
+      "url": "https://kar.kent.ac.uk/78842/",
+      "within_fruit_batch_replicates": false
+    }
+  ],
+  "source_pdf_sha256": "9c08b75a811e45185b60d21062ecae96c649dd7a09ac71fa3dd2bf1000ceabc3",
+  "source_pdf_url": "https://kar.kent.ac.uk/78842/1/Accepted_manuscript%20%282%29.pdf",
+  "status": "No prediction model or benchmark can be fitted to these screened studies for the locked primary outcome; this is an incomplete evidence screen, not proof no such source exists elsewhere."
+}
