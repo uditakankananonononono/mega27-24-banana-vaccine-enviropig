@@ -1,0 +1,67 @@
+{
+  "finding": "The four pinned published records use incompatible leaf, potato tuber, dry-tissue and process-stage denominators; none provides quantified banana-fruit protein mass paired to a post-digestion intact fraction. A pooled numeric dose-variability estimator would conflate sample units and stage losses.",
+  "gate_credit": {
+    "audited_derivations": 0,
+    "external_services": 0,
+    "fetched_and_used_accession_datasets": 0,
+    "paper_pages": 0
+  },
+  "limits": [
+    "A bounded ledger of already archived records, not a comprehensive literature search or a new measurement",
+    "The lettuce source is a separate process-stage example, not an independent banana replicate",
+    "No sequence, construct, formulation, antigen or protocol changes are suggested"
+  ],
+  "records": [
+    {
+      "fruit_protein_mass_available": false,
+      "measurement_scope": "two context-specific maxima, not individual fruit masses",
+      "post_digestion_intact_fraction_available": false,
+      "printed_values": [
+        38.0,
+        19.92
+      ],
+      "source": "https://link.springer.com/article/10.1007/s00425-005-1556-y",
+      "study": "Kumar 2005",
+      "unit": "ng/g fresh leaf"
+    },
+    {
+      "fruit_protein_mass_available": false,
+      "measurement_scope": "one approximate aggregate content value",
+      "post_digestion_intact_fraction_available": false,
+      "printed_values": [
+        8.5
+      ],
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC549291/",
+      "study": "Thanavala 2005",
+      "unit": "ug/g fresh potato tuber (approximately)"
+    },
+    {
+      "fruit_protein_mass_available": false,
+      "measurement_scope": "one printed value applied to both batches",
+      "post_digestion_intact_fraction_available": false,
+      "printed_values": [
+        300
+      ],
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3527624/",
+      "study": "Pelosi 2012",
+      "unit": "ug/g dry root or leaf"
+    },
+    {
+      "fruit_protein_mass_available": false,
+      "measurement_scope": "processing-stage and one-year storage summaries with different denominators; no individual plant values archived here",
+      "post_digestion_intact_fraction_available": false,
+      "printed_values": [],
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3088802/",
+      "study": "Pyrski lettuce",
+      "unit": "author-reported stage-specific content and retention percentages"
+    }
+  ],
+  "records_with_banana_fruit_protein_mass": 0,
+  "records_with_matched_post_digestion_intact_fraction": 0,
+  "source_results": [
+    "results/kumar2005_record.json",
+    "results/thanavala_dose_record.json",
+    "results/pelosi_dose_provenance.json",
+    "results/lettuce_stability_provenance.json"
+  ]
+}
