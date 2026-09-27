@@ -6,7 +6,7 @@
     "paper_pages": 0
   },
   "limits": [
-    "A paper outside this five-study screen may contain eligible data",
+    "A paper outside this six-study screen may contain eligible data",
     "Binary fields describe evidence recovered, not universal absence from full paywalled articles or supplemental data",
     "Do not pool human immune readouts, sheep response, purified-particle gel readouts and banana fruit transcript signal as one dose endpoint"
   ],
@@ -48,9 +48,29 @@
       "tissue": "purified from tobacco plant",
       "url": "https://kar.kent.ac.uk/78842/",
       "within_fruit_batch_replicates": false
+    },
+    {
+      "basis": "Expression, lyophilization storage and GM1 binding; no measured post-digestion intact fraction in source full text",
+      "fruit_protein_quantified": false,
+      "numeric_post_digestion_intact_fraction": false,
+      "study": "Lakshmi 2013 lettuce CTB-ESAT6 capsule",
+      "tissue": "lettuce and tobacco leaves",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3552857/",
+      "within_fruit_batch_replicates": false
+    },
+    {
+      "basis": "Source says >70% aa682 VHH antibody intact after 2h simulated gastric exposure within biomass, versus purified protein fully degraded after 2min; this is a therapeutic antibody, not an antigen-vaccine endpoint; no banana fruit or numeric replicate-level intact-antigen fraction table",
+      "fruit_protein_quantified": false,
+      "numeric_post_digestion_intact_fraction": false,
+      "study": "Jester 2022 spirulina antibody gastric test",
+      "tissue": "spray-dried spirulina biomass (not banana fruit)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9200632/",
+      "within_fruit_batch_replicates": false
     }
   ],
   "source_pdf_sha256": "9c08b75a811e45185b60d21062ecae96c649dd7a09ac71fa3dd2bf1000ceabc3",
   "source_pdf_url": "https://kar.kent.ac.uk/78842/1/Accepted_manuscript%20%282%29.pdf",
+  "spirulina_numeric_non_antigen_near_miss": ">70% encapsulated aa682 antibody intact at 2h in simulated gastric conditions; not a vaccine antigen endpoint",
+  "spirulina_source_sha256": "d250fd8ed4968892c4b3a9a656fbc2d4453571de3f8bb8ff7f5abc5d54f952d4",
   "status": "No prediction model or benchmark can be fitted to these screened studies for the locked primary outcome; this is an incomplete evidence screen, not proof no such source exists elsewhere."
 }
