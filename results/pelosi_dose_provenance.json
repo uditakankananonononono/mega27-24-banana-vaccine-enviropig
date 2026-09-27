@@ -1,0 +1,44 @@
+{
+  "arithmetic_check": {
+    "computed_mg_available_per_dose": 5.7,
+    "covers_stated_5mg_delivery": true,
+    "margin_percent_over_stated": 14.0,
+    "material_g_x_content_ug_per_g": 5700.0
+  },
+  "endpoint_classification": {
+    "banana_fruit_data": false,
+    "eligible_for_locked_primary_endpoint": false,
+    "fruit_to_fruit_replicates": false,
+    "measured_post_digestion_intact_antigen_fraction": false,
+    "outcome_type": "animal immune readouts (antibody titres), not digestion-survival measurements"
+  },
+  "europepmc_xml_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3527624/fullTextXML",
+  "gate_credit": {
+    "audited_derivations": 0,
+    "external_services": 0,
+    "fetched_and_used_accession_datasets": 0,
+    "paper_pages": 0
+  },
+  "limits": [
+    "Printed dose/expression records with denominators; the paper reports immune outcomes, not measured intact-antigen survival through digestion",
+    "Both batches printed at one identical content value, so no between-batch variability can be computed from this source",
+    "Animal groups of 2-5 are biological replicates of animals, not plant-to-plant or digestion-to-digestion replicates",
+    "Audit of published numbers only; no design, formulation or protocol recommendation"
+  ],
+  "printed_records": {
+    "animals_per_group_printed": "2-5",
+    "batch_content_applies_to": [
+      "hairy root",
+      "leaf"
+    ],
+    "batch_content_ug_per_g_dwt": 300,
+    "formulation_emulsion_ml": 200,
+    "formulation_freeze_dried_material_g": 19,
+    "groups": 4,
+    "quantification_basis": "capture ELISA against a commercial recombinant standard",
+    "stated_delivery_per_dose_mg": 5
+  },
+  "sha256": "96df5953c6e80514b6b9b75cccb5f834c55958a36de99a359a172a6872a8baa3",
+  "source_file": "pmc3527624.xml",
+  "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3527624/"
+}
