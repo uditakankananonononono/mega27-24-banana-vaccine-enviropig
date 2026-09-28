@@ -1,0 +1,8 @@
+[
+ {"id":"banana_leaf_same_line","mass_g":50,"material":"banana_leaf","basis":"fresh","analyte":"GP5_total","stage":"expression","cohort":"Chan_line4","ratio_record":"Chan_line4","expected_status":"permitted_nominal"},
+ {"id":"banana_leaf_to_fruit","mass_g":50,"material":"banana_fruit","basis":"fresh","analyte":"GP5_total","stage":"expression","cohort":"unknown_fruit","ratio_record":"Chan_line4","expected_status":"blocked_mismatch"},
+ {"id":"lettuce_vlp_same_batch","mass_g":0.00172,"material":"lettuce_leaf","basis":"dry","analyte":"HBsAg_VLP","stage":"processed","cohort":"batch_IV","ratio_record":"Pyrski_batch_IV","expected_status":"permitted_nominal"},
+ {"id":"lettuce_total_as_vlp","mass_g":0.00172,"material":"lettuce_leaf","basis":"dry","analyte":"HBsAg_VLP","stage":"processed","cohort":"batch_IV","ratio_record":"Pyrski_total_IV","expected_status":"blocked_mismatch"},
+ {"id":"process_recovery_as_digestive_survival","mass_g":0.00172,"material":"lettuce_leaf","basis":"dry","analyte":"HBsAg_VLP","stage":"digested","cohort":"batch_IV","ratio_record":"Pyrski_batch_IV","expected_status":"blocked_mismatch"},
+ {"id":"banana_fruit_full_chain","mass_g":50,"material":"banana_fruit","basis":"fresh","analyte":"HBsAg_intact","stage":"digested","cohort":"unknown_fruit","ratio_record":null,"expected_status":"no_matched_measurement"}
+]

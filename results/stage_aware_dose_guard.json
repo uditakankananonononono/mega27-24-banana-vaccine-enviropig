@@ -1,0 +1,91 @@
+{
+  "blocked_mismatch_count": 3,
+  "cases": [
+    {
+      "case_id": "banana_leaf_same_line",
+      "intestinal_surviving_ug": null,
+      "measured_fruit_antigen_ug": null,
+      "mismatched_dimensions": [],
+      "reported_nominal_ug": 12.879999999999999,
+      "requested_stage": "expression",
+      "source_url": "https://onlinelibrary.wiley.com/doi/10.1111/pbi.12015",
+      "status": "permitted_nominal"
+    },
+    {
+      "case_id": "banana_leaf_to_fruit",
+      "intestinal_surviving_ug": null,
+      "measured_fruit_antigen_ug": null,
+      "mismatched_dimensions": [
+        "material",
+        "cohort"
+      ],
+      "reported_nominal_ug": null,
+      "requested_stage": "expression",
+      "status": "blocked_mismatch"
+    },
+    {
+      "case_id": "lettuce_vlp_same_batch",
+      "intestinal_surviving_ug": null,
+      "measured_fruit_antigen_ug": null,
+      "mismatched_dimensions": [],
+      "reported_nominal_ug": 0.04988,
+      "requested_stage": "processed",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4209752/",
+      "status": "permitted_nominal"
+    },
+    {
+      "case_id": "lettuce_total_as_vlp",
+      "intestinal_surviving_ug": null,
+      "measured_fruit_antigen_ug": null,
+      "mismatched_dimensions": [
+        "analyte"
+      ],
+      "reported_nominal_ug": null,
+      "requested_stage": "processed",
+      "status": "blocked_mismatch"
+    },
+    {
+      "case_id": "process_recovery_as_digestive_survival",
+      "intestinal_surviving_ug": null,
+      "measured_fruit_antigen_ug": null,
+      "mismatched_dimensions": [
+        "stage"
+      ],
+      "reported_nominal_ug": null,
+      "requested_stage": "digested",
+      "status": "blocked_mismatch"
+    },
+    {
+      "case_id": "banana_fruit_full_chain",
+      "intestinal_surviving_ug": null,
+      "measured_fruit_antigen_ug": null,
+      "reported_nominal_ug": null,
+      "requested_stage": "digested",
+      "status": "no_matched_measurement"
+    }
+  ],
+  "gate_credit": {
+    "audited_derivations": 0,
+    "external_services": 0,
+    "fetched_and_used_accession_datasets": 0,
+    "paper_pages": 0
+  },
+  "interpretation": "Typed material, assay, stage and cohort guards refuse banana-fruit or digested-dose claims unsupported by the archived published leaf and processing data.",
+  "limits": [
+    "All cases are constructed after source inspection and do not constitute a held-out benchmark.",
+    "Permitted nominal values are publication arithmetic, not individual or post-digestion exposure.",
+    "Only a true source-paired banana-fruit intact antigen concentration and matched digestion stage could populate the requested endpoint.",
+    "Rule-based data validation and potency assays have prior art; no novel algorithm or new biological discovery is claimed."
+  ],
+  "no_matched_measurement_count": 1,
+  "permitted_nominal_count": 2,
+  "source_audit_sha256": {
+    "chan": "49b20eb3faf5564f6496f751ce299f52e6cb65663079adf8e529b59db5ce86fc",
+    "lettuce": "77f83c8ad46c0632d5b16d8fdb76a23106fd6eee4c0fd314018e7026ce06d341"
+  },
+  "source_urls": [
+    "https://onlinelibrary.wiley.com/doi/10.1111/pbi.12015",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC4209752/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC4209752/"
+  ]
+}
